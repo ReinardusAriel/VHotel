@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.background{
+    width: 100%;
+    height: 95vh;
+    background-image: url(VhoTel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.background2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(VhoTel.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+    width: 100%;
+    height: 5%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    opacity: 80%;
+}
+.logo{
+    width: 270px;
+    cursor: pointer;
+}
+
+.navmenu{
+    list-style: none;
+    display: flex;
+    margin: 0 15px;
+    justify-content: space-between;
+    margin-right: 32%;
+}
+
+
+.navmenu li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    transition: color 0.3s ease;
+    font-size: large;
+}
+
+.navmenu :hover{
+    color: #FFB800;
+}
+
+
+
+.signin-caption{
+    margin: auto;
+}
+
+/*Button*/
+
+.button-group{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.button-group li{
+    margin-right: 10px;
+}
+
+.primary-btn{
+    padding: 15px 40px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-btn{
+    padding: 15px 30px;
+    border: 2px solid black;
+    background-color: white;
+    transition: background-color 0.3s ease;
+}
+
+.button-group :hover{
+    background-color: #FFB800;
+}
+
+.signin-button{
+    background-color: #FFB800;
+    color: white;
+    padding: 10px 70px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin: 0 15px;
+    margin-top: 20px;
+}
+
+
+/*home page*/
+
+.home{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.isi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 25%;
+    margin-top: 10%;
+}
+
+.caption-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.caption-container img {
+    width: 150px;
+    height: 150px;
+}
+
+.caption {
+    margin-top: 10px;
+    text-align: center;
+    color: #FFB800;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.caption2{
+    font-size: 60px;
+    margin-top: 0;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+
+.vhotelpic{
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: center;
+    margin-top: 17%;
+    margin-bottom: 20%;
+}
+
+/*Sign IN page*/
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form{
+    max-width: 430px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 6px;
+    background: white;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #FFB800;
+    text-align: center;
+}
+
+form{
+    margin-top: 30px;
+}
+
+form .field{
+    height: 45px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.field input,
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACA;
+}
+.field input :focus{
+    border-bottom-width: 2px;
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: grey;
+}
+.form a{
+    color: blue;
+    text-decoration: none;
+}
+.form a :hover{
+    text-decoration: underline;
+}
+.field button{
+    color: white;
+    background-color: #FFB800;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.field button :hover{
+    background-color: #ffc32b;
+}
+
+/*navbar*/
+
+li, a, button{
+    font-weight: 500;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+}
+
+.headervhotel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 2%;
+    background-color: white;
+    opacity: 80%;
+    height: 10%;
+}
+
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav_links li :hover{
+    color: #FFB800;
+}
+
+.button{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    text-decoration: none;
+}
+
+.button li{
+    margin-right: 10px;
+}
+.btn1{
+    padding: 15px 40px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+.btn2{
+    padding: 15px 40px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+.button :hover{
+    background-color: #FFB800;
+}
+
+/*rooms page*/
+
+.background2{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.headerrooms{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 3%;
+    background-color: white;
+    opacity: 80%;
+    height: 10%;
+}
+.section-rooms{
+    margin-top: 200px;
+}
+
+.container{
+    width: 754px;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-xs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-sm-4{
+    width: 33.33333%;
+}
+
+/*rooms page*/
+
+.roomsbody{
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.menu{
+    padding: 0 10px 30px 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
+    grid-gap: 20px 40px;
+}
+.heading{
+    background-color: rgba(239, 237, 239, 0.936);
+    color: black;
+    margin-bottom: 30px;
+    padding: -10px 0;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.heading>img{
+    margin-top: 35px;
+    width: 20%;
+}
+.heading>h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.rooms-section{
+    display: grid;
+    position: relative;
+    grid-template-rows: auto 1fr;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.rooms-section img{
+    position: relative;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.details{
+    padding: 20px 10px;
+    display: grid;
+    grid-template-rows: 1fr 50px;
+    grid-row-gap: 15px;
+}
+.details-sub{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.details>h5{
+    font-weight: 600;
+    font-size: 18px;
+}
+.details>p{
+    color: grey;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 400;
+    align-self: stretch;
+}
+
+.details>button{
+    background-color: #FFB800;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 180px;
+}
+
+/*reservation*/
+
+.reservation-body{
+    font-family: sans-serif;
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("VhoTel.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url(Hotel-Jakarta-Amsterdam-Swimming-Pool.jpg);
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content{
+    background: #fff;
+    height: 363px;
+}
+.card-content h3{
+    text-align: center;
+    color: black;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #FFB800;
+    padding: 17px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
+
+/*about us*/
+
+.nav-aboutus {
+    background-color: #f2f2f2;
+    padding: 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+.navbar-aboutus {
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+  
+.navbar-aboutus img {
+   max-width: 300px;
+}
+  
+.navbar-text p {
+   margin: 0;
+   font-weight: 600;
+}
+
+.aboutus-page{
+    padding-top: 40px;
+    
+}
+
+.enter-aboutuspage{
+    width: 132px;
+    height: 4px;
+    background-color:white;
+    border: none;
+    margin-top: 31px;
+    margin-bottom: 64px;
+}
+.section-about{
+    padding-right: 175px;
+    padding-left: 175px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.section-about>p{
+    font-size: 20px;
+}
+
+.heading-aboutus{
+    text-align: center;
+}
+
+
+/*facillites*/
+
+.nav-facillites{
+    background-color: rgba(239, 237, 239, 0.936);
+    color: black;
+    margin-bottom: 30px;
+    padding: 33px;
+    grid-column: 1/-1;
+    text-align: center;
+}
+.details-fac>h5{
+    font-weight: 600;
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.facillites-h5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*taskbar*/
+
+.taskbar{
+    width: 100%;
+    height: 200px;
+    background-color: #9a9a9a;
+}
+
+.border{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.caption-taskbar{
+    margin-right: 50px;
+    margin-left: 50px;
+
+    text-align: center;
+}
